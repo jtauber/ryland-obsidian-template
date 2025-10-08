@@ -3,16 +3,10 @@
 jinja2==3.1.6
     # via ryland
 markdown==3.9
-    # via
-    #   markdown-full-yaml-metadata
-    #   ryland
-markdown-full-yaml-metadata==2.2.1
     # via ryland
 markupsafe==3.0.3
     # via jinja2
 pyyaml==6.0.3
-    # via
-    #   markdown-full-yaml-metadata
-    #   ryland
-ryland==0.13.0
+    # via ryland
+ryland==0.14.0
     # via -r requirements.in

@@ -7,7 +7,7 @@ from ryland.tubes import load, markdown
 
 VAULT_NAME = "Example Ryland Vault"
 
-ryland = Ryland(__file__)
+ryland = Ryland(__file__, markdown_extensions = ["fenced_code", "codehilite", "tables", "wikilinks"])
 
 ryland.clear_output()
 
