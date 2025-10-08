@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+main {
+  flex: 3;
+  padding: 4rem 2rem;
+  min-width: 360px;
+  max-width: 900px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block: 0;
+}
